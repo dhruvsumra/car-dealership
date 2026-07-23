@@ -4,7 +4,20 @@ A full-stack luxury car dealership inventory system built following Test-Driven 
 
 ---
 
+## 📸 Application Screenshots
+
+| Hero Showcase Banner | Technical Specifications Modal |
+| :---: | :---: |
+| ![Aura Motors Hero Showcase](screenshots/hero-showcase.png) | ![Vehicle Details & Specs Modal](screenshots/vehicle-detail-modal.png) |
+
+| Curated Sovereign Catalog |
+| :---: |
+| ![Curated Catalog Vault](screenshots/curated-catalog-vault.png) |
+
+---
+
 ## 🌟 Features Overview
+
 
 ### 🏎️ Modern Dark Gold Automotive UI
 - **Design Theme**: Deep obsidian onyx backgrounds (`#07080b`), metallic gold gradients (`#D4AF37`, `#F5D77F`), glassmorphism cards (`backdrop-blur-xl bg-black/60`), and Google Fonts typography (Cinzel & Outfit).
