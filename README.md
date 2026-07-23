@@ -12,7 +12,7 @@ A full-stack luxury car dealership inventory system built following Test-Driven 
 
 | Technical Specifications Modal | Curated Sovereign Catalog |
 | :---: | :---: |
-| ![Vehicle Details & Specs Modal](screenshots/vehicle-detail-modal.png) | ![Curated Catalog Vault](screenshots/curated-catalog-vault.png) |
+| ![Vehicle Details & Specs Modal]
 
 ---
 
