@@ -41,7 +41,7 @@
       "model": "Air Sapphire Gold",
       "category": "Electric",
       "price": 249000,
-      "quantity": 5,
+      "quantity": 3,
       "year": 2025,
       "imageUrl": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
       "description": "Pinnacle electric luxury sedan delivering sub-2 second acceleration and opulent gold-accented cabin.",
@@ -50,7 +50,8 @@
         "topSpeed": "205 mph",
         "acceleration": "0-60 in 1.89s",
         "engine": "Tri-Motor Electric All-Wheel Drive"
-      }
+      },
+      "updatedAt": "2026-07-23T08:11:45.490Z"
     },
     {
       "id": "veh-003",
@@ -58,7 +59,7 @@
       "model": "Apex Sovereign V12",
       "category": "Luxury Sedan",
       "price": 580000,
-      "quantity": 2,
+      "quantity": 0,
       "year": 2026,
       "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
       "description": "The ultimate expression of whisper-quiet executive luxury with gold starlight headliner.",
@@ -67,7 +68,8 @@
         "topSpeed": "155 mph",
         "acceleration": "0-60 in 4.4s",
         "engine": "6.75L Twin-Turbo V12"
-      }
+      },
+      "updatedAt": "2026-07-23T08:13:48.489Z"
     },
     {
       "id": "veh-004",
