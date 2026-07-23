@@ -6,13 +6,15 @@ A full-stack luxury car dealership inventory system built following Test-Driven 
 
 ## 📸 Application Screenshots
 
-| Luxury EMI Financing Calculator | Updated Hero Showcase & Navbar |
-| :---: | :---: |
-| ![Luxury EMI Financing Calculator](screenshots/emi-calculator-modal.png) | ![Updated Hero Showcase](screenshots/hero-showcase-updated.png) |
+> Real screenshots from the live running application at `http://localhost:3000`
 
-| Technical Specifications Modal | Curated Sovereign Catalog |
+| 🏠 Hero — Sovereign Hypercar Collection | 🗄️ Vault — Sovereign Vehicle Catalog |
 | :---: | :---: |
-| ![Vehicle Details & Specs Modal](screenshots/vehicle-detail-modal.png) | ![Curated Catalog Vault](screenshots/curated-catalog-vault.png) |
+| ![Hero Showcase](screenshots/hero-showcase.png) | ![Curated Catalog Vault](screenshots/curated-catalog-vault.png) |
+
+| 🚗 Vehicle Detail & Performance Specs | 💰 Luxury EMI & Financing Calculator |
+| :---: | :---: |
+| ![Vehicle Detail Modal](screenshots/vehicle-detail-modal.png) | ![EMI Calculator Modal](screenshots/emi-calculator-modal.png) |
 
 ---
 
