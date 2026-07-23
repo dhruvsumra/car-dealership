@@ -6,17 +6,18 @@ A full-stack luxury car dealership inventory system built following Test-Driven 
 
 ## 📸 Application Screenshots
 
-| Hero Showcase Banner | Technical Specifications Modal |
+| Luxury EMI Financing Calculator | Updated Hero Showcase & Navbar |
 | :---: | :---: |
-| ![Aura Motors Hero Showcase](screenshots/hero-showcase.png) | ![Vehicle Details & Specs Modal](screenshots/vehicle-detail-modal.png) |
+| ![Luxury EMI Financing Calculator](screenshots/emi-calculator-modal.png) | ![Updated Hero Showcase](screenshots/hero-showcase-updated.png) |
 
-| Curated Sovereign Catalog |
-| :---: |
-| ![Curated Catalog Vault](screenshots/curated-catalog-vault.png) |
+| Technical Specifications Modal | Curated Sovereign Catalog |
+| :---: | :---: |
+| ![Vehicle Details & Specs Modal](screenshots/vehicle-detail-modal.png) | ![Curated Catalog Vault](screenshots/curated-catalog-vault.png) |
 
 ---
 
 ## 🌟 Features Overview
+
 
 
 ### 🏎️ Modern Dark Gold Automotive UI
