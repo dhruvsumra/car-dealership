@@ -1,7 +1,15 @@
 import React from 'react';
-import { Shield, Crown, User as UserIcon, LogOut, Key, Sparkles, PlusCircle, Car } from 'lucide-react';
+import { Shield, Crown, User as UserIcon, LogOut, Key, Sparkles, PlusCircle, Calculator } from 'lucide-react';
 
-export default function Navbar({ user, onOpenAuth, onLogout, onOpenAdminAdd, currentRole, onToggleRoleDemo }) {
+export default function Navbar({
+  user,
+  onOpenAuth,
+  onLogout,
+  onOpenAdminAdd,
+  onOpenEMI,
+  currentRole,
+  onToggleRoleDemo
+}) {
   return (
     <header className="sticky top-0 z-40 w-full border-b border-gold-600/30 bg-obsidian-950/90 backdrop-blur-2xl shadow-xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
@@ -37,6 +45,15 @@ export default function Navbar({ user, onOpenAuth, onLogout, onOpenAdminAdd, cur
 
         {/* Action Buttons */}
         <div className="flex items-center space-x-3">
+          {/* EMI Calculator Trigger */}
+          <button
+            onClick={onOpenEMI}
+            className="flex items-center space-x-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-obsidian-900 hover:bg-obsidian-850 text-gold-400 border border-gold-600/40 hover:shadow-gold-glow transition-all duration-300"
+          >
+            <Calculator className="w-4 h-4 text-gold-400" />
+            <span className="hidden sm:inline">EMI Calculator</span>
+          </button>
+
           {currentRole === 'admin' && (
             <button
               onClick={onOpenAdminAdd}

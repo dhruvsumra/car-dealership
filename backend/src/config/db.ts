@@ -12,7 +12,7 @@ interface Schema {
   vehicles: Vehicle[];
 }
 
-// Initial seed data for luxury vehicles
+// Initial seed data for luxury vehicles with interior photos & multi-image gallery
 const SEED_VEHICLES: Vehicle[] = [
   {
     id: "veh-001",
@@ -23,12 +23,21 @@ const SEED_VEHICLES: Vehicle[] = [
     quantity: 3,
     year: 2026,
     imageUrl: "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1200&q=80",
-    description: "Handcrafted hybrid V12 hypercar finished in bespoke Liquid Gold with carbon-fiber chassis.",
+    interiorImageUrl: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+    ],
+    description: "Handcrafted hybrid V12 hypercar finished in bespoke Liquid Gold with carbon-fiber monocoque chassis and gold-stitched Italian leather interior.",
     specs: {
       horsepower: 1150,
       topSpeed: "235 mph",
       acceleration: "0-60 in 2.1s",
-      engine: "6.5L Quad-Turbo V12 + Dual Electric Motors"
+      engine: "6.5L Quad-Turbo V12 + Dual Electric Motors",
+      interiorMaterial: "Hand-stitched Aniline Gold Leather & Forged Carbon",
+      seatingCapacity: 2,
+      transmission: "7-Speed Dual-Clutch Sequential"
     }
   },
   {
@@ -39,13 +48,22 @@ const SEED_VEHICLES: Vehicle[] = [
     price: 249000,
     quantity: 5,
     year: 2025,
-    imageUrl: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80",
-    description: "Pinnacle electric luxury sedan delivering sub-2 second acceleration and opulent gold-accented cabin.",
+    imageUrl: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80",
+    interiorImageUrl: "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1200&q=80"
+    ],
+    description: "Pinnacle electric luxury sedan delivering sub-2 second acceleration, opulent gold-accented cabin, and 34-inch curved glass cockpit.",
     specs: {
       horsepower: 1234,
       topSpeed: "205 mph",
       acceleration: "0-60 in 1.89s",
-      engine: "Tri-Motor Electric All-Wheel Drive"
+      engine: "Tri-Motor Electric All-Wheel Drive",
+      interiorMaterial: "Bespoke Sapphire Alcantara & Natural Walnut",
+      seatingCapacity: 5,
+      transmission: "Direct-Drive Single Speed"
     }
   },
   {
@@ -56,13 +74,22 @@ const SEED_VEHICLES: Vehicle[] = [
     price: 580000,
     quantity: 2,
     year: 2026,
-    imageUrl: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80",
-    description: "The ultimate expression of whisper-quiet executive luxury with gold starlight headliner.",
+    imageUrl: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1200&q=80",
+    interiorImageUrl: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80"
+    ],
+    description: "The ultimate expression of whisper-quiet executive luxury with gold starlight fiber-optic headliner and massage recliners.",
     specs: {
       horsepower: 600,
       topSpeed: "155 mph",
       acceleration: "0-60 in 4.4s",
-      engine: "6.75L Twin-Turbo V12"
+      engine: "6.75L Twin-Turbo V12",
+      interiorMaterial: "Starlight Gold Fiber Optics & Cashmere Wool",
+      seatingCapacity: 4,
+      transmission: "8-Speed Satellite-Aided Automatic"
     }
   },
   {
@@ -74,12 +101,21 @@ const SEED_VEHICLES: Vehicle[] = [
     quantity: 4,
     year: 2025,
     imageUrl: "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1200&q=80",
-    description: "Track-focused aerodynamic masterpiece boasting active aero and gold forged magnesium wheels.",
+    interiorImageUrl: "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    description: "Track-focused aerodynamic masterpiece boasting active aero, gold forged magnesium wheels, and carbon bucket seats.",
     specs: {
       horsepower: 850,
       topSpeed: "218 mph",
       acceleration: "0-60 in 2.6s",
-      engine: "4.0L Flat-Plane Crank Twin-Turbo V8"
+      engine: "4.0L Flat-Plane Crank Twin-Turbo V8",
+      interiorMaterial: "Ultra-lightweight Alcantara & Carbon Weave",
+      seatingCapacity: 2,
+      transmission: "7-Speed Dual-Clutch Race Transmission"
     }
   },
   {
@@ -91,12 +127,21 @@ const SEED_VEHICLES: Vehicle[] = [
     quantity: 1,
     year: 2026,
     imageUrl: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80",
-    description: "All-terrain luxury SUV featuring bespoke gold trim, champagne cooler, and executive seating.",
+    interiorImageUrl: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80"
+    ],
+    description: "All-terrain luxury SUV featuring bespoke gold trim, champagne cooler, executive rear lounge, and panoramic glass roof.",
     specs: {
       horsepower: 591,
       topSpeed: "155 mph",
       acceleration: "0-60 in 4.9s",
-      engine: "6.75L Twin-Turbocharged V12"
+      engine: "6.75L Twin-Turbocharged V12",
+      interiorMaterial: "Full-grain Cognac Leather & Gold Accents",
+      seatingCapacity: 5,
+      transmission: "8-Speed Automatic All-Wheel Drive"
     }
   }
 ];

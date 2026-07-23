@@ -12,6 +12,9 @@ export interface VehicleSpecs {
   topSpeed: string;
   acceleration: string;
   engine: string;
+  interiorMaterial?: string;
+  seatingCapacity?: number;
+  transmission?: string;
 }
 
 export interface Vehicle {
@@ -23,6 +26,8 @@ export interface Vehicle {
   quantity: number;
   year: number;
   imageUrl: string;
+  interiorImageUrl?: string;
+  gallery?: string[];
   description: string;
   specs: VehicleSpecs;
   createdAt?: string;
