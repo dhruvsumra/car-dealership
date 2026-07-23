@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production builds
+dist/
+build/
+
+# Database files
+data/test-db.json
+
+# Environment variables
+.env
+.env.local
+
+# IDE & System
+.DS_Store
+*.log
