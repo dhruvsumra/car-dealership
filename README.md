@@ -76,7 +76,31 @@ Open `http://localhost:3000` in your browser.
 
 ---
 
+## 🌐 Live Deployment Guide
+
+The project includes pre-configured deployment manifests:
+- `vercel.json` (Vercel deployment)
+- `render.yaml` (Render.com 1-click full-stack deployment)
+- `.gitignore` (Configured to ignore node_modules, build outputs, and local databases)
+
+### Option 1: Render.com (Recommended for Full-Stack Node + React)
+1. Push your Git repository to GitHub / GitLab:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/car-dealership.git
+   git branch -M main
+   git push -u origin main
+   ```
+2. Go to [Render Dashboard](https://dashboard.render.com/) -> Click **New +** -> **Blueprints**.
+3. Select your `car-dealership` GitHub repository. Render will automatically detect `render.yaml` and deploy both the **Backend API** and **Frontend SPA**!
+
+### Option 2: Vercel Deployment (Frontend & Serverless API)
+1. Install Vercel CLI or import your GitHub repository on [Vercel.com](https://vercel.com).
+2. Connect your repo — Vercel will build the frontend from `frontend/` using `npm run build` and route `/api/*` endpoint requests seamlessly.
+
+---
+
 ## 🤖 My AI Usage
+
 
 ### 1. AI Tools Utilized
 - **Antigravity (Google DeepMind Team)**: Used as the primary agentic pair programmer for architecture planning, TDD test suite scaffolding, Express controller creation, and dark gold luxury UI component styling.
